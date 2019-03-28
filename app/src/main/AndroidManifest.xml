@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pratik.dashboard">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/graduation"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+
+        </activity>
+        <activity android:name=".Courses" />
+        <activity android:name=".Sports" />
+        <activity android:name=".Signup" />
+        <activity android:name=".LogIn">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MessagesNotices" />
+        <activity android:name=".StudentMessageRecieve" />
+        <activity android:name=".SelectVideo" />
+        <activity android:name=".Video" />
+        <activity android:name=".AI" />
+        <activity android:name=".Android" />
+        <activity android:name=".BigData" />
+        <activity android:name=".Java" />
+        <activity android:name=".MachineLearning" />
+        <activity android:name=".Semester" />
+        <activity android:name=".DepartmentStudyMaterial" />
+        <activity android:name=".UploadAndRetreiveFile" />
+        <activity android:name=".ImagesActivity" />
+        <activity android:name=".RecyclerViewForMessages"></activity>
+        <activity android:name=".OnlyTextMessages" />
+        <activity android:name=".SportsUI" />
+        <activity android:name=".PlacementModule"></activity>
+    </application>
+
+</manifest>

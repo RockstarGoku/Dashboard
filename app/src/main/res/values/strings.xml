@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">College Management System</string>
+    <string name="sign_up">SignUp</string>
+    <string name="enter_username">Enter UserName</string>
+    <string name="enter_email_id">Enter Email Id</string>
+    <string name="enter_unique_id">Enter Unique Id</string>
+    <string name="enter_phone_number">Enter Mobile Number</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="enter_otp">Enter OTP</string>
+    <string name="get_otp">Get OTP</string>
+    <string name="message">Message</string>
+    <array name="semester">
+        <item>FIRST</item>
+        <item>SECOND</item>
+        <item>THIRD</item>
+        <item>Fourth</item>
+        <item>FIFTH</item>
+        <item>SIXTH</item>
+        <item>SEVENTH</item>
+        <item>EIGHT</item>
+    </array>
+    <array name="selectFile">
+        <item>Select the type of file to upload</item>
+        <item>PDF</item>
+        <item>IMAGE</item>
+        <item>EXCEL</item>
+        <item>WORD</item>
+    </array>
+    <array name="selectFileWithText">
+        <item>Select the type of file to upload</item>
+        <item>PDF</item>
+        <item>IMAGE</item>
+        <item>EXCEL</item>
+        <item>WORD</item>
+        <item>TEXT</item>
+    </array>
+    <array name="selectUser">
+        <item>STUDENT</item>
+        <item>FACULTY</item>
+    </array>
+    <array name="selectDepartment">
+        <item>MECHANICAL</item>
+        <item>COMPUTER</item>
+        <item>CIVIL</item>
+        <item>ELECTRICAL</item>
+        <item>EC</item>
+        <item>AUTOMOBILES</item>
+    </array>
+
+</resources>
